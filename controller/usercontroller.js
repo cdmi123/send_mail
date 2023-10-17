@@ -31,6 +31,6 @@ transporter.sendMail(mailOptions, function(error, info){
 });
 
     res.status(200).json({
-        data
+        status:"mail send"
     })
 }
