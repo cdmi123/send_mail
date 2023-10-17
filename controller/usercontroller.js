@@ -3,7 +3,7 @@ var user = require('../model/usermodel');
 
 exports.insert = async (req,res) => {
     
-    var data = await user.create(req.body);
+    //var data = await user.create(req.body);
 
     var nodemailer = require('nodemailer');
 
